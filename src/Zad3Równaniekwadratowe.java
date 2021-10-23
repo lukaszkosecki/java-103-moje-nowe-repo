@@ -11,7 +11,6 @@ public class Zad3Równaniekwadratowe {
         double delta = b*b - 4* a*c;
 
         if(delta > 0){
-            delta = Math.sqrt(delta);
             double x1 = (-b - delta)/(2 * a);
             double x2 = (-b + delta)/(2 * a);
             System.out.println("Pierwiastki równania to x1: " + x1 + " oraz x2: " + x2);
@@ -28,3 +27,7 @@ public class Zad3Równaniekwadratowe {
 
     }
 }
+
+
+//sposób obiektowy
+//squareEquastionSolver solver = new SqareEquastion
