@@ -23,6 +23,9 @@ public class BMI {
         if(bmi > 24.9){
             System.out.println("Wartość BMI jest nieoptymalna");
         }
+        else {
+            System.out.println("Wartość BMi jest optymalna");
+        }
 
     }
 }
