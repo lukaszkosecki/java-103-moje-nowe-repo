@@ -4,11 +4,10 @@ public class BMI {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
-        double increase;
-        double body_weight;
-        double bmi;
+        double increase,body_weight,bmi;
 
-        System.out.println("Podaj swój wzrost ");
+
+        System.out.println("Podaj swój wzrost [w metrach]");
         increase = scan.nextDouble();
 
         System.out.println("Podaj swoja wagę [w kg] ");
@@ -17,6 +16,13 @@ public class BMI {
         bmi = body_weight/Math.pow(increase,2);
 
         System.out.println("BMI wynosi: " + bmi);
+
+        if(bmi < 18.5){
+            System.out.println("Wartość BMI jest nieoptymalna");
+        }
+        if(bmi > 24.9){
+            System.out.println("Wartość BMI jest nieoptymalna");
+        }
 
     }
 }
