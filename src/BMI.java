@@ -1,5 +1,11 @@
 import java.util.Scanner;
-
+/*
+Napisz program obliczający BMI (Body Mass Index) i sprawdzający, czy jest ono w normie.
+Program powinien wczytywać od użytkownika dwie zmienne: wagę w kilogramach (typ float) oraz wzrost w centymetrach (typ int).
+BMI powinno zostać wyliczone zgodnie z poniższym wzorem:
+Optymalny zakres BMI wynosi od 18.5 do 24.9, wartości mniejsze lub większe są wartościami nieoptymalnymi.
+Twój program powinien wypisać „BMI optymalne” lub „BMI nieoptymalne”, zgodnie z powyższymi założeniami.
+ */
 public class BMI {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
